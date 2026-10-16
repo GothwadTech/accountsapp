@@ -1,0 +1,19 @@
+<resources>
+    <string name="gothwad_accounts">Gothwad Accounts</string>
+    <string name="gothwad_sign_in">Sign in with Gothwad</string>
+    <string name="gothwad_auth_description">Sign in or create an account on the existing Gothwad Accounts website. Your password stays in the browser.</string>
+    <string name="gothwad_choose_account">Choose an account</string>
+    <string name="gothwad_active">Active account</string>
+    <string name="gothwad_switch">Switch to this account</string>
+    <string name="gothwad_add_account">Add another account</string>
+    <string name="gothwad_manage_web">Manage your account on the web</string>
+    <string name="gothwad_local_removal_notice">Removal affects this app only. Browser login and other apps remain signed in. Server revocation is not available in this preview.</string>
+    <string name="gothwad_remove_local">Remove from this app</string>
+    <string name="gothwad_browser_error">Install or enable a browser to sign in.</string>
+    <string name="gothwad_callback_error">The login response is invalid or expired. Start sign-in again.</string>
+    <string name="gothwad_cancelled">Sign-in was cancelled.</string>
+    <string name="gothwad_expired">Your session expired. Sign in again.</string>
+    <string name="gothwad_storage_error">Secure account storage is unavailable. Restart the app and try again.</string>
+    <string name="gothwad_unavailable">Accounts is temporarily unavailable. Please try again.</string>
+    <string name="gothwad_dismiss">Dismiss</string>
+</resources>

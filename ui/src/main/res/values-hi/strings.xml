@@ -1,0 +1,19 @@
+<resources>
+    <string name="gothwad_accounts">Gothwad Accounts</string>
+    <string name="gothwad_sign_in">Gothwad से साइन इन करें</string>
+    <string name="gothwad_auth_description">मौजूदा Gothwad Accounts वेबसाइट पर साइन इन करें या खाता बनाएँ। आपका पासवर्ड ब्राउज़र में ही रहता है।</string>
+    <string name="gothwad_choose_account">खाता चुनें</string>
+    <string name="gothwad_active">सक्रिय खाता</string>
+    <string name="gothwad_switch">यह खाता इस्तेमाल करें</string>
+    <string name="gothwad_add_account">दूसरा खाता जोड़ें</string>
+    <string name="gothwad_manage_web">वेबसाइट पर अपना खाता मैनेज करें</string>
+    <string name="gothwad_local_removal_notice">खाता सिर्फ इस ऐप से हटेगा। ब्राउज़र और दूसरे ऐप में साइन इन बना रहेगा। इस प्रीव्यू में सर्वर से सत्र रद्द करना उपलब्ध नहीं है।</string>
+    <string name="gothwad_remove_local">इस ऐप से हटाएँ</string>
+    <string name="gothwad_browser_error">साइन इन करने के लिए ब्राउज़र इंस्टॉल या चालू करें।</string>
+    <string name="gothwad_callback_error">लॉगिन का जवाब अमान्य है या समय समाप्त हो गया है। दोबारा साइन इन करें।</string>
+    <string name="gothwad_cancelled">साइन इन रद्द किया गया।</string>
+    <string name="gothwad_expired">आपके सत्र का समय समाप्त हो गया। दोबारा साइन इन करें।</string>
+    <string name="gothwad_storage_error">सुरक्षित खाता स्टोरेज उपलब्ध नहीं है। ऐप दोबारा खोलकर कोशिश करें।</string>
+    <string name="gothwad_unavailable">Accounts अभी उपलब्ध नहीं है। दोबारा कोशिश करें।</string>
+    <string name="gothwad_dismiss">बंद करें</string>
+</resources>
