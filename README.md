@@ -4,6 +4,8 @@ Optional standalone Android app **Gothwad Accounts** (`com.gothwad.accounts`) an
 
 **Status: early browser-auth implementation, not production-ready.** Android build/device verification and live OAuth client registration are still required. No APK or SDK version has been published.
 
+**New chat / next maintainer: read [docs/HANDOFF.md](docs/HANDOFF.md) first.** It records decisions, completed work, pending work, and the observed Android CI setup failure.
+
 ## Implemented in source
 
 - Gradle modules: `core` (no Compose), `ui`, standalone `app`, and two installable `sample` flavors.

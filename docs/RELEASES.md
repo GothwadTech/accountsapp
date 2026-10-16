@@ -14,7 +14,7 @@ Android needs no Cloudflare deployment. Both Android and web use the same Accoun
 
 ## Workflow rollout
 
-`planning.yml` validates documentation and `android-ci.yml` now defines Android tests/lint/build and local Maven publication checks. Initial `jitpack.yml` is present. These have not been remotely run; signed release automation is still pending. Target rollout:
+`planning.yml` validates documentation and `android-ci.yml` now defines Android tests/lint/build and local Maven publication checks. Initial `jitpack.yml` is present. Android CI has run but failed at SDK setup before build/test/publication tasks; see [HANDOFF.md](HANDOFF.md). JitPack publication is unverified and signed release automation is still pending. Target rollout:
 
 1. **android-ci.yml** — PR/push: pinned JDK/Gradle, formatting, JVM tests, lint, assemble libraries + standalone + both sample hosts; no signing secrets on PRs. Emulator tests for redirects/broker separately. Cache dependencies; do not cache credentials.
 2. **release.yml** — explicit version tag/manual release gate on reviewed source: rerun validation, verify versionName/versionCode/tag alignment, build signed release APK, verify signature and expected public certificate, checksum assets, create draft GitHub Release. Upload libraries/sources as optional diagnostic assets. Missing signing secrets must fail, never generate replacement keys.

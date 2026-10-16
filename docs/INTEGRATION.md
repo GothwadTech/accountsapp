@@ -46,7 +46,7 @@ Register as public clients, allow `profile email offline_access`, and use exact 
 ./gradlew :core:publishReleasePublicationToMavenLocal :ui:publishReleasePublicationToMavenLocal
 ```
 
-Source dependencies are pinned to a conservative AGP 8.13.2 / Kotlin 2.2.21 / Gradle 8.13 baseline, not asserted to be the latest stable release. Reconcile with the latest verified stable toolchain before release; do not copy PlusTube alpha Compose dependencies blindly. The sandbox has neither Java nor Android SDK and cannot access all Android dependency hosts, so Gradle compilation/test execution is unverified here. GitHub Android CI is configured but has not been pushed or run in this session.
+Source dependencies are pinned to a conservative AGP 8.13.2 / Kotlin 2.2.21 / Gradle 8.13 baseline, not asserted to be the latest stable release. Reconcile with the latest verified stable toolchain before release; do not copy PlusTube alpha Compose dependencies blindly. The sandbox has neither Java nor Android SDK and cannot access all Android dependency hosts, so Gradle compilation/test execution is unverified here. GitHub Android CI has now run for the initial implementation commit and failed during Android SDK setup, before compilation/tests. See [HANDOFF.md](HANDOFF.md) for run IDs and next steps.
 
 ## Device acceptance (pending)
 
